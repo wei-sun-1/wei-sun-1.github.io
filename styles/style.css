@@ -1,0 +1,58 @@
+/* Basic styling for body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Styling for header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+/* Styling for sections */
+#bio, #content, #image {
+    margin: 1rem;
+    padding: 0.8rem;
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Dark theme styles */
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Dark-theme styles for the rest*/
+.dark-theme header,
+.dark-theme footer {
+    background-color: #555;
+}
+
+/* Enlarged image styles */
+.enlarged {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+/* Styling for images */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 14%;
+    height: auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
